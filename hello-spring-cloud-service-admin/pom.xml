@@ -11,7 +11,7 @@
         <relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>hello-spring-cloud-eureka</artifactId>
+    <artifactId>hello-spring-cloud-service-admin</artifactId>
     <packaging>jar</packaging>
 
     <properties>

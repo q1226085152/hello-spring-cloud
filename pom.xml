@@ -17,6 +17,7 @@
     <modules>
         <module>hello-spring-cloud-dependencies</module>
         <module>hello-spring-cloud-eureka</module>
+        <module>hello-spring-cloud-service-admin</module>
     </modules>
 
 </project>
