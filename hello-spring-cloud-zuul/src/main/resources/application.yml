@@ -3,8 +3,12 @@ spring:
     name: hello-spring-cloud-zuul
   zipkin:
     base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 server:
-  port: 8766
+  port: 8768
 
 eureka:
   client:

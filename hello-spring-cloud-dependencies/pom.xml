@@ -19,6 +19,8 @@
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
         <jackson-databind.version>2.9.5</jackson-databind.version>
         <zipkin.version>2.12.1</zipkin.version>
+        <jolokia-core.version>1.6.2</jolokia-core.version>
+        <spring-boot-admin-starter.version>2.1.2</spring-boot-admin-starter.version>
     </properties>
 
     <dependencyManagement>
@@ -34,6 +36,21 @@
                 <version>${spring-cloud-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${spring-boot-admin-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-client</artifactId>
+                <version>${spring-boot-admin-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jolokia</groupId>
+                <artifactId>jolokia-core</artifactId>
+                <version>${jolokia-core.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
