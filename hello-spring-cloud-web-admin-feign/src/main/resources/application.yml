@@ -6,7 +6,9 @@ spring:
       uri: http://localhost:8888
       name: web-admin-feign
       label: master
-      profile: dev
+      profile: prod
+  zipkin:
+    base-url: http://localhost:9411
 #server:
 #  port: 8765
 

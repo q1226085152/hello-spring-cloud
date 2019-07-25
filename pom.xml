@@ -22,6 +22,7 @@
         <module>hello-spring-cloud-web-admin-feign</module>
         <module>hello-spring-cloud-zuul</module>
         <module>hello-spring-cloud-config</module>
+        <module>hello-spring-cloud-zipkin</module>
     </modules>
 
 </project>

@@ -10,6 +10,8 @@ spring:
           username:
           password:
           search-paths: hello-spring-cloud-config/src/main/resources/respo
+  zipkin:
+    base-url: http://localhost:9411
 
 server:
   port: 8888
