@@ -3,7 +3,7 @@ spring:
     name: hello-spring-cloud-web-admin-feign
 
 server:
-  port: 8765
+  port: 8766
 
 feign:
   hystrix:
