@@ -20,6 +20,7 @@
         <module>hello-spring-cloud-service-admin</module>
         <module>hello-spring-cloud-web-admin-ribbon</module>
         <module>hello-spring-cloud-web-admin-feign</module>
+        <module>hello-spring-cloud-zuul</module>
     </modules>
 
 </project>
