@@ -9,7 +9,7 @@ spring:
           uri: https://github.com/q1226085152/hello-spring-cloud
           username:
           password:
-          search-paths: hello-spring-cloud/src/main/resources
+          search-paths: hello-spring-cloud-config/src/main/resources/respo
 
 server:
   port: 8888
