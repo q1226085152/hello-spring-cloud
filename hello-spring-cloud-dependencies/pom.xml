@@ -17,7 +17,7 @@
         <spring-cloud-dependencies.version>Greenwich.SR2</spring-cloud-dependencies.version>
         <spring-cloud.version>2.1.2.RELEASE</spring-cloud.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
-        <jackson-databind.version>2.9.5</jackson-databind.version>
+        <jackson-databind.version>2.9.10.8</jackson-databind.version>
         <zipkin.version>2.12.1</zipkin.version>
         <jolokia-core.version>1.6.2</jolokia-core.version>
         <spring-boot-admin-starter.version>2.1.2</spring-boot-admin-starter.version>
